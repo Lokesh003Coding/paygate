@@ -34,7 +34,7 @@ The package will automatically register itself.
 To publish the config file to `config/paygate.php` run:
 
 ```bash
-php artisan vendor:publish --tag=paygate.config
+php artisan vendor:publish --provider="PWParsons\PayGate\PayGateServiceProvider" --tag="config"
 ```
 
 ## Usage
